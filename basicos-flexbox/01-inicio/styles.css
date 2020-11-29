@@ -23,9 +23,14 @@ h2 {
 }
 
 .contenedor-flex {
-    display: inline-flex;
+    display: flex;
     border: 3px solid black;
+    /* Direcciones */
     flex-direction: row;
+    /* Wrap */
+    flex-wrap: wrap-reverse;
+    /* Flex flow - column o row y wrap, nowrap o wrap-reverse */
+    flex-flow: row wrap;
 }
 
 .elemento-flex {
