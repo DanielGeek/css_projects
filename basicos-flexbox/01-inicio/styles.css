@@ -23,8 +23,9 @@ h2 {
 }
 
 .contenedor-flex {
-    display: flex;
+    display: inline-flex;
     border: 3px solid black;
+    flex-direction: row;
 }
 
 .elemento-flex {
