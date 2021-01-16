@@ -1,0 +1,7 @@
+## ejercicios usando PUG CSS
+Si quieres utilizar pug sin prepros y por terminal debes:
+
+Instalarlo
+npm i pug-cli -g
+Compilar
+pug -w --pretty landing.pug
