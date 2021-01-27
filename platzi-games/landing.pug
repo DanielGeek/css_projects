@@ -1,3 +1,6 @@
+-var titulo = "Título Principal"
+-var titulos = ["Titulo Principal", "Subtitulo 1", "Subtitulo 2", "Subtitulo 3"]
+doctype html
 html
 	head
 		meta(charset="UTF-8")
@@ -9,7 +12,7 @@ html
 		section.intro
 			.intro__imagen: img(src="images/imagen.png")
 			.intro__contenido
-				h2 Titulo Principal
+				h2 #{titulos[3][0]}
 				p
 					| Lorem ipsum dolor sit amet consectetur adipisicing elit.
 					| Amet officia officiis dolor consequuntur sapiente 
